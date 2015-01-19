@@ -1,0 +1,31 @@
+package Section_02;
+
+import java.util.Scanner;
+
+/**
+ * Created by julian on 19.01.15.
+ */
+public class Ex_08 {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        /*
+        System.out.println("Enter a number: ");
+        int value = scanner.nextInt();
+
+        while(value != 5){
+            System.out.println("Enter a number: ");
+            value = scanner.nextInt();
+        }
+        */
+        int value = 0;
+        do{
+            System.out.println("Enter a number: ");
+            value = scanner.nextInt();
+
+        } while(value != 5);
+
+        System.out.println("Got 5!");
+    }
+}
