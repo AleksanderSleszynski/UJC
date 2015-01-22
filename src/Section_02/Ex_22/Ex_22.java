@@ -1,4 +1,4 @@
-package Section_02.Ex22;
+package Section_02.Ex_22;
 
 public class Ex_22 {
     public static void main(String[] args) {
